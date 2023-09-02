@@ -1,7 +1,7 @@
 # Data Analysis with Power BI
 ## Analyzing Customer Churn in Power BI
 
-****The problem****
+****The problem***
 
 The problem that I worked on in this project is customer churn. I used a fictitious churn dataset from a Telecom provider called Databel. My main aim was to analyze why customers are churning, or in other words, leaving Databel.
 
