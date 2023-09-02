@@ -4,9 +4,13 @@
 ## Data
 Customer status:	
 Customer ID:	  The unique ID that identifies a customer
+
 Churn Label:	  Contains "Yes" or "No" to indicate if a customer churned
+
 Churn Reason: 	The particular reason why the customer ended the contract
+
 Churn Category:	Groups multiple churn reasons together for analysis purposes
+
 ![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/e7fdfe6d-e8b6-4da1-b8be-eb8b075439dd)
 
 
