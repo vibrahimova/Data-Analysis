@@ -24,6 +24,10 @@ The dataset contains more than just dimensions, so let's look at some measures. 
 ## Churn Overview Dashboard
 ![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/27633a54-e4d9-493c-bcef-660566c8bc3c)
 
+## Visualization of Churn Rate
+![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/664da8f5-bdb7-44b4-90eb-f5fe44e9406d)
+
+
 ## Insights Dashboard
 ![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/90bde6df-cd4c-404b-8b3a-f09b7e7c9a48)
 
