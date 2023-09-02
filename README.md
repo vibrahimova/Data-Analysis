@@ -1,8 +1,14 @@
 # DataAnalysisPowerBI
 ## Analyzing Customer Churn in Power BI
 
-### Data Overview
+****The problem****
 
+The problem that I worked on in this project is customer churn. I used a fictitious churn dataset from a Telecom provider called Databel. My main aim was to analyze why customers are churning, or in other words, leaving Databel.
+
+### Data Overview
+The dataset consists of 29 different columns and has one row per customer. I analyzed a snapshot of the database at a specific moment in time, meaning there is no time dimension.
+The dataset contains numerous dimensions, the first one being Customer_id. The Customer_id is a unique ID that identifies an individual customer. The second column is called Churn Label, and it indicates if a customer churned with "Yes" and "No" labels. The dataset contains various other dimensions, such as demographic fields and information about premium plans.
+The dataset contains more than just dimensions, so let's look at some measures. The Total Charges column, for example, takes the sum of all monthly charges billed to a customer.
 
 ![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/3ac0db9b-569b-42a3-aaaf-ccc27cd8c3c5)
 
