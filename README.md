@@ -3,7 +3,10 @@
 
 ## Data
 
-![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/5cd504b1-2dff-41c8-8bd8-978296c38145)
+![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/9c13f41e-ef47-4d29-9212-a6241bad4082)
+
+![image](https://github.com/vibrahimova/DataAnalysisPowerBI/assets/68854630/a53dd8c6-8ea6-49fd-b271-a4869e99ad21)
+
 
 
 
