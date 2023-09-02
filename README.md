@@ -1,4 +1,4 @@
-# DataAnalysisPowerBI
+# Data Analysis with Power BI
 ## Analyzing Customer Churn in Power BI
 
 ****The problem****
