@@ -2,5 +2,6 @@ Subqueries are queries that are nested inside another SQL query. They help us ta
 
 In this repo, I want to solve some data manipulation task with Joins and Subquery in Oracle/PL SQL. 
 
-**Objective: The goal of the code is to find the teacher with the highest salary in each department.
-**Data Sources: The code retrieves data from three tables: TEACHER, CLASS, and DEPARTMENT.
+* Objective: The goal of the code is to find the teacher with the highest salary in each department.
+** Data Sources: The code retrieves data from three tables: TEACHER, CLASS, and DEPARTMENT.
+*** The code solves the problem of identifying and retrieving the teachers with the maximum salary in each department by using SQL joins, subqueries, and filtering
