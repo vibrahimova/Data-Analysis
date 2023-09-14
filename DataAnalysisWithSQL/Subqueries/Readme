@@ -1,1 +1,6 @@
-
+Subqueries are queries that are nested inside another SQL query. They help us target specific rows to perform various operations in SQL. They are used to SELECT, UPDATE, INSERT and DELETE records in SQL. 
+Subqueries are nested inside statements like SELECT, INSERT, UPDATE, DELETE, or any other subquery.
+Subqueries are present in the WHERE clause, FROM clause, or HAVING clause of the PARENT SQL query.
+They are used with comparison operators and logical operators like >, <, >=, <>, <=, SOME, ANY, ALL, and IN.
+They execute before the outer query at the run time and pass the result to complete the statement.
+Subqueries are used to compare an expression to the output and check if any row gets selected.
