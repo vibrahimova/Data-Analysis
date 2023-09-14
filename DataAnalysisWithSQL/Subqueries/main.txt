@@ -1,0 +1,11 @@
+
+SELECT D.DEPARTMENT_NAME,T.TEACHER_name, TO_NUMBER(REPLACE(SALARY,'$','')) AS Salary
+	FROM TEACHER T
+    	JOIN CLASS C  ON T.Teacher_ID = C.Teacher_ID
+		JOIN DEPARTMENT D  ON C.Department_ID = D.Department_ID
+    WHERE TO_NUMBER(REPLACE(SALARY,'$','')) = (
+    	SELECT MAX(TO_NUMBER(REPLACE(SALARY,'$','')))
+			FROM TEACHER T2
+    		JOIN CLASS C2 ON T2.Teacher_ID = C2.Teacher_ID
+			JOIN DEPARTMENT D2 ON C2.Department_ID = D2.Department_ID
+    	WHERE D2.Department_NAME = D.Department_NAME);
