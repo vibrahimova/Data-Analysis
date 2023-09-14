@@ -1,8 +1,12 @@
-/*Salary Conversion: The code uses the TO_NUMBER(REPLACE(T.Salary, '$', '')) expression to convert the Salary column from a string with a dollar sign ('$') to a numeric format. This allows for numerical comparisons of salaries.
+/*Salary Conversion: The code uses the TO_NUMBER(REPLACE(T.Salary, '$', '')) expression to convert the Salary column from
+a string with a dollar sign ('$') to a numeric format. This allows for numerical comparisons of salaries.
 
-Subquery for Maximum Salary: It uses a subquery (a query within another query) to find the maximum salary in each department. This subquery calculates the maximum salary by joining the TEACHER, CLASS, and DEPARTMENT tables for a specific department and retrieving the highest salary for that department.
+Subquery for Maximum Salary: It uses a subquery (a query within another query) to find the maximum salary in each
+department. This subquery calculates the maximum salary by joining the TEACHER, CLASS, and DEPARTMENT tables for a specific
+department and retrieving the highest salary for that department.
 
-Main Query: The main query then joins the same tables (TEACHER, CLASS, and DEPARTMENT) to obtain a list of teachers, their department names, and their salaries.*/
+Main Query: The main query then joins the same tables (TEACHER, CLASS, and DEPARTMENT) to obtain a list of teachers, their
+department names, and their salaries.*/
 
 SELECT D.DEPARTMENT_NAME,T.TEACHER_name, TO_NUMBER(REPLACE(SALARY,'$','')) AS Salary
 	FROM TEACHER T
