@@ -23,8 +23,13 @@ SELECT D.DEPARTMENT_NAME,T.TEACHER_name, TO_NUMBER(REPLACE(SALARY,'$','')) AS Sa
 					ON C2.Department_ID = D2.Department_ID
     			WHERE D2.Department_NAME = D.Department_NAME);
 
-/* Filtering with Subquery: The WHERE clause in the main query filters the results based on the condition that the teacher's salary should be equal to the maximum salary calculated in the subquery for their respective department. This ensures that only the teachers with the highest salaries in each department are included in the final result.
+/* Filtering with Subquery: The WHERE clause in the main query filters the results based on the condition that the teacher's
+salary should be equal to the maximum salary calculated in the subquery for their respective department. This ensures that
+only the teachers with the highest salaries in each department are included in the final result.
 
-Result: The final result of the code is a list of teacher names (TEACHER_name), their respective department names (Department_Name), and their salaries (Salary) for those teachers who have the highest salary in their respective departments.*/
+Result: The final result of the code is a list of teacher names (TEACHER_name), their respective department names
+(Department_Name), and their salaries (Salary) for those teachers who have the highest salary in their respective
+departments.*/
 
-In summary, the code solves the problem of identifying and retrieving the teachers with the maximum salary in each department by using SQL joins, subqueries, and filtering.*/
+In summary, the code solves the problem of identifying and retrieving the teachers with the maximum salary in each
+department by using SQL joins, subqueries, and filtering.*/
