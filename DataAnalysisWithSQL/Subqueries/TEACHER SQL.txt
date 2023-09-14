@@ -1,0 +1,221 @@
+﻿/* CREATE TABLE */
+CREATE TABLE TEACHER(
+Teacher_ID NUMBER,
+Teacher_Name VARCHAR(100),
+Teacher_Surname VARCHAR(100),
+Date_Of_Joining VARCHAR(100),
+Person_ID VARCHAR(100),
+Teacher_Phone__ NUMBER,
+Salary VARCHAR(100),
+Employee_ID NUMBER
+);
+
+/* INSERT QUERY NO: 1 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000201, 'Aurora', 'Rodriguez', '05/06/2016', 'AZE №  08809808', +994574029595, '4211$', 16000001
+);
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000202, 'Kavan', 'Garza', '05/06/2016', 'AZE №  08033141', +994553644924, '2522$', 16000002
+);
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000203, 'Kacper', 'Berry', '05/06/2016', 'AZE №  08041392', +994555483278, '3322$', 16000003
+);
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000204, 'Marlene', 'Benton', '05/06/2016', 'AZE №  09921243', +994575182591, '2868$', 16000004
+);
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000205, 'Derry', 'Snyder', '05/06/2016', 'AZE №  08064191', +99456476527, '3710$', 16000005
+);
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000206, 'Maizie', 'Gross', '05/06/2016', 'AZE №  08698741', +994572672189, '3053$', 16000006
+);
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000207, 'Chester', 'Wharton', '05/06/2016', 'AZE №  09235677', +994574927967, '2605$', 16000007
+);
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000208, 'Eva-Rose', 'Hussain', '05/06/2016', 'AZE №  08027476', +994572326874, '3032$', 16000008
+);
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000209, 'Nylah', 'Dudley', '05/06/2016', 'AZE №  08037648', +994555767576, '4273$', 16000009
+);
+
+/* INSERT QUERY NO: 10 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000210, 'Malcolm', 'Mcfarland', '05/06/2016', 'AZE №  09979553', +994563943747, '4188$', 16000010
+);
+
+/* INSERT QUERY NO: 11 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000211, 'Luke', 'Woodcock', '05/06/2016', 'AZE №  08914509', +994556655179, '3793$', 16000011
+);
+
+/* INSERT QUERY NO: 12 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000212, 'Yasin', 'Oakley', '05/06/2016', 'AZE №  08149316', +99456693384, '3828$', 16000012
+);
+
+/* INSERT QUERY NO: 13 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000213, 'Todd', 'Booker', '05/06/2016', 'AZE №  09875614', +994562396592, '4463$', 16000013
+);
+
+/* INSERT QUERY NO: 14 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000214, 'Daisy', 'Jensen', '05/06/2016', 'AZE №  08717735', +994576818325, '2552$', 16000014
+);
+
+/* INSERT QUERY NO: 15 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000215, 'Ariel', 'Fischer', '05/06/2016', 'AZE №  08354275', +994576928634, '3802$', 16000015
+);
+
+/* INSERT QUERY NO: 16 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000216, 'Ansh', 'Mills', '05/06/2016', 'AZE №  08664473', +994556336997, '2681$', 16000016
+);
+
+/* INSERT QUERY NO: 17 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000217, 'Kinga', 'Sharples', '05/06/2016', 'AZE №  09570134', +994565277462, '3182$', 16000017
+);
+
+/* INSERT QUERY NO: 18 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000218, 'Muhammad', 'Ellison', '05/06/2016', 'AZE №  09568659', +994552822736, '3850$', 16000018
+);
+
+/* INSERT QUERY NO: 19 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000219, 'Cari', 'Mair', '05/06/2016', 'AZE №  09231447', +994564638546, '2920$', 16000019
+);
+
+/* INSERT QUERY NO: 20 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000220, 'Sadiyah', 'Green', '05/06/2016', 'AZE №  09384715', +994562577735, '2742$', 16000020
+);
+
+/* INSERT QUERY NO: 21 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000221, 'Kiri', 'Gale', '05/06/2016', 'AZE №  08037969', +994575924596, '3632$', 16000021
+);
+
+/* INSERT QUERY NO: 22 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000222, 'Duncan', 'Kirkpatrick', '05/06/2016', 'AZE №  09285680', +994555374058, '3391$', 16000022
+);
+
+/* INSERT QUERY NO: 23 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000223, 'Ismaeel', 'Barnard', '05/06/2016', 'AZE №  09186510', +994565684036, '4294$', 16000023
+);
+
+/* INSERT QUERY NO: 24 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000224, 'Asha', 'Evans', '05/06/2016', 'AZE №  08528265', +99455581917, '2569$', 16000024
+);
+
+/* INSERT QUERY NO: 25 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000225, 'Sienna', 'Ridley', '05/06/2016', 'AZE №  09575901', +994562798721, '3196$', 16000025
+);
+
+/* INSERT QUERY NO: 26 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000226, 'Ayush', 'Decker', '05/06/2016', 'AZE №  08921027', +994564513411, '3585$', 16000026
+);
+
+/* INSERT QUERY NO: 27 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000227, 'Carson', 'Whiteley', '05/06/2016', 'AZE №  08956988', +994563156710, '3109$', 16000027
+);
+
+/* INSERT QUERY NO: 28 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000228, 'Abbey', 'Holmes', '05/06/2016', 'AZE №  08794643', +994563662127, '2552$', 16000028
+);
+
+/* INSERT QUERY NO: 29 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+16000229, 'Isis', 'Salt', '05/06/2016', 'AZE №  08168913', +994556594165, '3308$', 16000029
+);
+
+/* INSERT QUERY NO: 30 */
+INSERT INTO TEACHER(Teacher_ID, Teacher_Name, Teacher_Surname, Date_Of_Joining, Person_ID, Teacher_Phone__, Salary, Employee_ID)
+VALUES
+(
+0, '', '', '', '', 0, '', 0
+);
