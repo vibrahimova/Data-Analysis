@@ -1,11 +1,26 @@
+/*Salary Conversion: The code uses the TO_NUMBER(REPLACE(T.Salary, '$', '')) expression to convert the Salary column from a string with a dollar sign ('$') to a numeric format. This allows for numerical comparisons of salaries.
+
+Subquery for Maximum Salary: It uses a subquery (a query within another query) to find the maximum salary in each department. This subquery calculates the maximum salary by joining the TEACHER, CLASS, and DEPARTMENT tables for a specific department and retrieving the highest salary for that department.
+
+Main Query: The main query then joins the same tables (TEACHER, CLASS, and DEPARTMENT) to obtain a list of teachers, their department names, and their salaries.*/
 
 SELECT D.DEPARTMENT_NAME,T.TEACHER_name, TO_NUMBER(REPLACE(SALARY,'$','')) AS Salary
 	FROM TEACHER T
-    	JOIN CLASS C  ON T.Teacher_ID = C.Teacher_ID
-		JOIN DEPARTMENT D  ON C.Department_ID = D.Department_ID
-    WHERE TO_NUMBER(REPLACE(SALARY,'$','')) = (
-    	SELECT MAX(TO_NUMBER(REPLACE(SALARY,'$','')))
+    		INNER JOIN CLASS C  
+			ON T.Teacher_ID = C.Teacher_ID
+		INNER JOIN DEPARTMENT D  
+			ON C.Department_ID = D.Department_ID
+    	 WHERE TO_NUMBER(REPLACE(SALARY,'$','')) = (
+    		SELECT MAX(TO_NUMBER(REPLACE(SALARY,'$','')))
 			FROM TEACHER T2
-    		JOIN CLASS C2 ON T2.Teacher_ID = C2.Teacher_ID
-			JOIN DEPARTMENT D2 ON C2.Department_ID = D2.Department_ID
-    	WHERE D2.Department_NAME = D.Department_NAME);
+    				INNER JOIN CLASS C2 
+					ON T2.Teacher_ID = C2.Teacher_ID
+				INNER JOIN DEPARTMENT D2 
+					ON C2.Department_ID = D2.Department_ID
+    			WHERE D2.Department_NAME = D.Department_NAME);
+
+/* Filtering with Subquery: The WHERE clause in the main query filters the results based on the condition that the teacher's salary should be equal to the maximum salary calculated in the subquery for their respective department. This ensures that only the teachers with the highest salaries in each department are included in the final result.
+
+Result: The final result of the code is a list of teacher names (TEACHER_name), their respective department names (Department_Name), and their salaries (Salary) for those teachers who have the highest salary in their respective departments.*/
+
+In summary, the code solves the problem of identifying and retrieving the teachers with the maximum salary in each department by using SQL joins, subqueries, and filtering.*/
